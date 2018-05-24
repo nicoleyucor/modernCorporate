@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'IBM Plex Mono', monospace;
+	letter-spacing: 5px;
+}
+
+.bod {
+	background: url(../../assets/images/cam.jpg) no-repeat fixed center;
+	background-size: cover;
+	color: white;
+}
+
+.about {
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav {
+	width: 90%;
+	margin: 0;
+	height: 100px;
+}
+
+h3 > ul {
+	position: relative;
+	left: 40px;
+}
+
+h3 > ul > li {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+
+.foot {
+	float:left;
+	position: fixed;
+	bottom: 0;
+	margin: 30px;
+	width: 100%;
+	height: 50px;
+}
+
+
+i[class*="fab"] {
+	float: right;
+	margin-right: 40px;
+}
+
+.contact {
+	/*padding: 20px;*/
+	margin: 30px;
+	margin-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+.banner {
+	position: relative;
+	height: 450px;
+}
+
+.box {
+	margin-top: 150px;
+	margin-bottom: 0;
+ 	border: 5px solid white;
+ 	text-align: center;
+ 	width: 50%;
+ 	padding: 50px;	
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%); /*x,y axis*/
+}
+
+hr {
+	width: 500px;
+	margin:10px;
+}
+
+.samp {
+	font-family: 'Lilita One', cursive;
+	font-weight: normal;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+#button {
+	margin-top: 20px;
+}
+
+.button {
+	background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
